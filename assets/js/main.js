@@ -17,7 +17,7 @@ const cameraControl = new OrbitControls(camera, renderer.domElement);
 // *** Light Source ***
 // Ambient
 
-const ambLight = new THREE.AmbientLight( 0x404040 );
+const ambLight = new THREE.AmbientLight( 0x42242b, 8 );
 scene.add(ambLight);
 
 // Pointlight
