@@ -27,7 +27,7 @@ scene.add(pointLight);
 
 // LampLight (Spot)
 
-const spotLight = new THREE.SpotLight( 0xfff4ad, 20, 100, 0.8, 0.15 );
+const spotLight = new THREE.SpotLight( 0xffd3a1, 40, 100, 0.8, 0.19 );
 scene.add(spotLight);
 
 // *** Geometries ***
