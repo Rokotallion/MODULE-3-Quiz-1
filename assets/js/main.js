@@ -63,7 +63,6 @@ scene.add(wall4);
 scene.add(door);
 
 // Ceiling
-
 const ceilTexture = new THREE.TextureLoader().load('./assets/textures/MARBLE1.png');
 const ceilSpec = new THREE.TextureLoader().load('./assets/textures/MARBLE1_Spec.png');
 const ceilGeom = new THREE.PlaneGeometry(5,5);
@@ -88,7 +87,6 @@ const lampball = new THREE.Mesh(lampBallGeom, lampBallMatt);
 scene.add(lampball);
 
 // Floor
-
 const floorTex = new THREE.TextureLoader().load('./assets/textures/GRAYBIG.png');
 const floorGeom = new THREE.PlaneGeometry(5, 5);
 const floorMatt = new THREE.MeshLambertMaterial( { map: floorTex } );
